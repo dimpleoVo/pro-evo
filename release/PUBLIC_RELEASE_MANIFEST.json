@@ -21,5 +21,12 @@
   "unit_test_status": "PASS",
   "remote": "NONE",
   "push": "NO",
-  "license_status": "LICENSE_DECISION_REQUIRED"
+  "license_status": "FROZEN",
+  "license_scope": {
+    "open_core": "APACHE-2.0",
+    "documentation": "CC-BY-NC-4.0",
+    "public_research_evidence": "CC-BY-NC-ND-4.0",
+    "private_implementation_licensed": false,
+    "ambiguous_license_scope": false
+  }
 }

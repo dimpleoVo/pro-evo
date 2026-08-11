@@ -82,6 +82,12 @@ The evidence is a sanitized projection, not a raw artifact dump. Read [docs/rese
 
 The complete research runtime, production experiment infrastructure, provider adapters and accounts, benchmark corpus and task repositories, private experiment artifacts, raw provider bodies, private reasoning, hidden tests/evaluators, expected or reference patches, credentials, and internal/company assets are excluded.
 
+## License and release scope
+
+This repository is an **Open Core and Public Evidence Release**. Only the explicitly identified Open Core software components are licensed as open-source software under Apache License 2.0. Original documentation is CC BY-NC 4.0; sanitized public research evidence and experiment-result figures are CC BY-NC-ND 4.0. See [LICENSE.md](LICENSE.md) for the path-scoped terms.
+
+The complete Pro-Evo research runtime, production experiment infrastructure, private benchmark assets, provider integrations, and hidden evaluation infrastructure are not included or licensed.
+
 ## Citation
 
 No author identity is asserted in this staging release. Citation metadata requires an approved public identity before publication.

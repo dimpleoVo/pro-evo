@@ -6,5 +6,4 @@ Included: typed public schemas, deterministic offline replay, minimal causal agg
 
 Excluded: the complete Pro-Evo runtime, controllers, provider integrations, budget/control systems, experiment runner, benchmark/task assets, raw artifacts/logs, hidden evaluators/tests, reference patches, private reasoning, credentials, deployment machinery, and company/internal assets.
 
-`LICENSE_DECISION_REQUIRED`: no license is selected here because public licensing authority for the proprietary project has not been supplied. This statement does not license the complete private Pro-Evo implementation.
-
+Licensing is frozen as a path-scoped multi-license; see [LICENSE.md](LICENSE.md). This statement does not license the complete private Pro-Evo implementation.
