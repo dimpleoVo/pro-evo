@@ -1,6 +1,5 @@
 # Evidence guide
 
-Start with `evidence/gate22/summary.json`, which contains three sanitized matched pairs. Each branch has an opaque checkpoint ID, outcome booleans, and an ordered list of public chain labels. `open_core.causal.aggregate_pairs` asserts same-checkpoint identity and recomputes the README totals. `public-evidence-manifest.json` attaches safe provenance fields and integrity hashes.
+Start with the immutable three-pair summary at `evidence/gate22/summary.json`. Each branch has an opaque Checkpoint identity, outcome booleans, and ordered public chain labels. `open_core.causal.aggregate_pairs` asserts Same-checkpoint identity and recomputes the README totals. `public-evidence-manifest.json` attaches safe Provenance fields and integrity Hashes.
 
-Gate20 preserves the null effect. Gate21 preserves its attribution limitation. Gate22 carries the strong mechanism claim.
-
+The initial Target-Guided Recovery validation preserves the Null Result. The outcome-level validation preserves its MODERATE Behavioral Attribution limitation. Strong Mechanism Attribution and Corrective Optimization Validation carries the final public mechanism claim.

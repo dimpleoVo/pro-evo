@@ -10,9 +10,8 @@ No. It is a strong causal proof-of-concept for three prospectively frozen same-c
 
 ## Why publish a null result?
 
-Gate20 prevents selective-positive-result storytelling. Its zero effect informed a documented redesign before Gate21 and Gate22.
+The initial Target-Guided Recovery validation prevents selective-positive-result storytelling. Its zero effect informed a documented redesign before the outcome-level and strong-mechanism validations.
 
 ## Can I verify the headline numbers without credentials?
 
-Yes. Run `python examples/evidence-replay/run.py`. It uses only the sanitized Gate22 JSON evidence and standard-library Python.
-
+Yes. Run `python examples/evidence-replay/run.py`. It uses only the sanitized immutable public JSON evidence and standard-library Python.
