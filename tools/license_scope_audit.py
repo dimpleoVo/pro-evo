@@ -7,7 +7,7 @@ from pathlib import Path
 
 
 APACHE = ("open_core/", "examples/", "tests/", "tools/", "pyproject.toml", ".gitignore")
-DOCS = ("docs/", "README.md", "CLAIM_BOUNDARY.md", "PUBLIC_RELEASE_SCOPE.md", "SECURITY_AND_PRIVACY.md")
+DOCS = ("docs/", "README.md", "README.zh-CN.md", "CLAIM_BOUNDARY.md", "PUBLIC_RELEASE_SCOPE.md", "SECURITY_AND_PRIVACY.md")
 EVIDENCE = ("evidence/", "figures/", "release/")
 NOTICE = ("LICENSE.md", "LICENSES/")
 

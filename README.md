@@ -4,6 +4,8 @@
 
 **Open Core and Public Evidence Release**
 
+> **Language:** [English](README.md) · [简体中文](README.zh-CN.md)
+
 > **This is not the complete Pro-Evo implementation.** This repository publishes selected open-core abstractions, reproducible public evidence, experiment methodology, offline evidence replay, and reference examples. The full research runtime, production experiment infrastructure, private benchmark assets, provider integrations, and hidden evaluation infrastructure are not open-sourced.
 
 ## Why Pro-Evo
@@ -14,18 +16,18 @@ Final success is not necessarily reliable execution. A conventional evaluation o
 
 The goal is not a universal claim about agents; it is to test whether a process-aware intervention changes a defined, observable recovery outcome under a frozen causal protocol.
 
-## Key result: Gate22
+## Resolve targets from the same pre-revision checkpoint
 
 Under three prospectively frozen, same-checkpoint **pre-revision** comparisons, the Pro-Evo process-aware intervention produced complete target-linked recovery chains in all three treatment branches. Generic recovery controls also revised the workspace but failed to resolve the target in all three pairs.
 
-| Frozen Gate22 comparison | Generic recovery (G) | Pro-Evo treatment (T) |
+| Frozen same-checkpoint comparison | Generic recovery (G) | Pro-Evo treatment (T) |
 | --- | ---: | ---: |
 | Matched pre-revision checkpoints | 3 | 3 |
 | Target resolution | 0/3 | 3/3 |
 | Verified completion | 0/3 | 3/3 |
 | Strong mechanism traces | 0/3 | 3/3 |
 
-![Gate22 strong mechanism result](figures/gate22-causal-result.svg)
+![Strong mechanism result](figures/gate22-causal-result.svg)
 
 ## What Pro-Evo evaluates
 
@@ -43,15 +45,15 @@ G and T start from the same opaque pre-revision checkpoint within each matched p
 
 ![Same-checkpoint causal design](figures/same-checkpoint.svg)
 
-## Strong mechanism evidence
+## Trace the recovery mechanism end to end
 
 For all three treatment branches, the public projection contains the complete chain:
 
 `Public Failure → Process Diagnosis → Pre-revision Checkpoint → Same-checkpoint G/T → Target-guided Intervention → Observable Behavior Divergence → Post-treatment Corrective Revision → Public Reverification → Target Resolution → Verified Completion`
 
-See [Gate22 evidence](evidence/gate22/), the [G/T comparison](evidence/gate22/gt-comparison.md), and the [evidence guide](docs/evidence-guide.md).
+See the [public evidence](evidence/gate22/), the [G/T comparison](evidence/gate22/gt-comparison.md), and the [evidence guide](docs/evidence-guide.md).
 
-## Null results matter
+## Preserve null results and refine the design
 
 Gate20 is intentionally public: generic and treatment recovery were both 2/2, yielding an effect of zero. The evidence records information redundancy, already-sufficient generic recovery, and a task-difficulty ceiling. It documents the scientific progression from null result to mechanism diagnosis, prospective redesign, refreeze, Gate21, and Gate22—rather than rerunning until a positive result appeared.
 
