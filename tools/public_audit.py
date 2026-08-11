@@ -20,7 +20,8 @@ def audit(root: Path) -> dict:
     secret_hits: list[str] = []
     large_or_binary: list[str] = []
     symlinks: list[str] = []
-    files = [p for p in root.rglob("*") if ".git" not in p.parts]
+    excluded_parts = {".git", ".pytest_cache", "__pycache__"}
+    files = [p for p in root.rglob("*") if not (excluded_parts & set(p.parts))]
     for path in files:
         if path.is_symlink():
             symlinks.append(str(path.relative_to(root)))
@@ -56,4 +57,3 @@ if __name__ == "__main__":
     parser.add_argument("--root", type=Path, default=Path(__file__).resolve().parents[1])
     args = parser.parse_args()
     print(json.dumps(audit(args.root), indent=2, sort_keys=True))
-
