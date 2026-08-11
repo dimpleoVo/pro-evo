@@ -1,0 +1,29 @@
+{
+  "schema_version": "1.0",
+  "gate": "Gate22",
+  "research_head": "9a5e7d3e5455c910e944be706902117f1dca9431",
+  "protocol_hash": "sha256:7d8b2ceebc5f8f25c9a23f4b47dbe7418952c18a24ecfbaaa7aa278b309b6ce2",
+  "target_hash": "sha256:2386b5af24736a806e0a0f6f4e2dc44ac2b67a64989e4f963a2b01f23d7c504d",
+  "task_set_hash": "sha256:1c0e9e4d6340eec0a4e9da6df9f88a21c5f8e7284662852158c316804bac3771",
+  "public_only": true,
+  "private_cot_recorded": false,
+  "private_cot_used_for_inference": false,
+  "matched_pairs": [
+    {
+      "pair_id": "g22-pair-01",
+      "generic": {"checkpoint_id": "g22-pre-revision-01", "target_resolved": false, "verified_completion": false, "public_chain": ["public_failure", "process_diagnosis", "pre_revision_checkpoint", "same_checkpoint_branches", "post_treatment_revision", "public_reverification"]},
+      "treatment": {"checkpoint_id": "g22-pre-revision-01", "target_resolved": true, "verified_completion": true, "public_chain": ["public_failure", "process_diagnosis", "pre_revision_checkpoint", "same_checkpoint_branches", "target_guided_intervention", "observable_behavior_divergence", "post_treatment_revision", "public_reverification"]}
+    },
+    {
+      "pair_id": "g22-pair-02",
+      "generic": {"checkpoint_id": "g22-pre-revision-02", "target_resolved": false, "verified_completion": false, "public_chain": ["public_failure", "process_diagnosis", "pre_revision_checkpoint", "same_checkpoint_branches", "post_treatment_revision", "public_reverification"]},
+      "treatment": {"checkpoint_id": "g22-pre-revision-02", "target_resolved": true, "verified_completion": true, "public_chain": ["public_failure", "process_diagnosis", "pre_revision_checkpoint", "same_checkpoint_branches", "target_guided_intervention", "observable_behavior_divergence", "post_treatment_revision", "public_reverification"]}
+    },
+    {
+      "pair_id": "g22-pair-03",
+      "generic": {"checkpoint_id": "g22-pre-revision-03", "target_resolved": false, "verified_completion": false, "public_chain": ["public_failure", "process_diagnosis", "pre_revision_checkpoint", "same_checkpoint_branches", "post_treatment_revision", "public_reverification"]},
+      "treatment": {"checkpoint_id": "g22-pre-revision-03", "target_resolved": true, "verified_completion": true, "public_chain": ["public_failure", "process_diagnosis", "pre_revision_checkpoint", "same_checkpoint_branches", "target_guided_intervention", "observable_behavior_divergence", "post_treatment_revision", "public_reverification"]}
+    }
+  ]
+}
+

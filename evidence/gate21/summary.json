@@ -1,0 +1,12 @@
+{
+  "schema_version": "1.0",
+  "gate": "Gate21",
+  "matched_pairs": 3,
+  "generic_verified_completion": 0,
+  "treatment_verified_completion": 3,
+  "outcome_causal_effect": "STRONG",
+  "behavioral_attribution": "MODERATE",
+  "public_only": true,
+  "private_cot_used": false
+}
+

@@ -1,0 +1,21 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "gate22-public-evidence-projection",
+  "artifact_type": "sanitized_causal_evidence_projection",
+  "research_head": "9a5e7d3e5455c910e944be706902117f1dca9431",
+  "campaign_source_head": "9a5e7d3e5455c910e944be706902117f1dca9431",
+  "protocol_hash": "sha256:7d8b2ceebc5f8f25c9a23f4b47dbe7418952c18a24ecfbaaa7aa278b309b6ce2",
+  "target_hash": "sha256:2386b5af24736a806e0a0f6f4e2dc44ac2b67a64989e4f963a2b01f23d7c504d",
+  "task_set_hash": "sha256:1c0e9e4d6340eec0a4e9da6df9f88a21c5f8e7284662852158c316804bac3771",
+  "sanitization_policy": "ALLOWLIST_PUBLIC_PROJECTION_V1",
+  "contains_private_path": false,
+  "contains_hidden_oracle": false,
+  "contains_private_cot": false,
+  "contains_raw_provider_body": false,
+  "artifacts": [
+    {"path": "evidence/gate22/summary.json", "public_sha256": "0058db790b0af2b08a00d5d2aee6498554a3e5b5322795088b2e92719dc9d17e"},
+    {"path": "evidence/gate22/public-events/g22-pair-01.json", "public_sha256": "ee6ff4f7192aa36f76acd7a9328fc6cbf342716ff5ee1a915d7dba2d0de738ea"},
+    {"path": "evidence/gate22/public-events/g22-pair-02.json", "public_sha256": "9cd4025c07677965127c95b6111d5c8aa6b218f0a82649c72a101ffd23e7c803"},
+    {"path": "evidence/gate22/public-events/g22-pair-03.json", "public_sha256": "116a1dad8f02906ec9ee64582376710fb5c0d72d5a97dca9ef803f690589af27"}
+  ]
+}

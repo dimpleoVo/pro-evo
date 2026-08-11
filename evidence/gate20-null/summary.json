@@ -1,0 +1,17 @@
+{
+  "schema_version": "1.0",
+  "gate": "Gate20",
+  "status": "NULL_EFFECT",
+  "matched_pairs": 2,
+  "generic_effective_recovery": 2,
+  "treatment_effective_recovery": 2,
+  "effect": 0,
+  "interpretation_codes": [
+    "INTERVENTION_INFORMATION_REDUNDANT",
+    "GENERIC_RECOVERY_ALREADY_SUFFICIENT",
+    "TASK_DIFFICULTY_CEILING"
+  ],
+  "public_only": true,
+  "private_cot_used": false
+}
+
