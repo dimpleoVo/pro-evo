@@ -76,7 +76,7 @@ Expected Gate22 aggregate: 3 matched pairs; G target resolution and verified com
 
 ## Research integrity
 
-The evidence is a sanitized projection, not a raw artifact dump. Read [docs/research-integrity.md](docs/research-integrity.md), [docs/limitations.md](docs/limitations.md), and [CLAIM_BOUNDARY.md](CLAIM_BOUNDARY.md) before interpreting the result.
+The evidence is a sanitized projection, not a raw artifact dump. Read [docs/research-integrity.md](docs/research-integrity.md), [docs/limitations.md](docs/limitations.md), [docs/faq.md](docs/faq.md), and [CLAIM_BOUNDARY.md](CLAIM_BOUNDARY.md) before interpreting the result.
 
 ## What is not open-sourced
 
@@ -85,4 +85,3 @@ The complete research runtime, production experiment infrastructure, provider ad
 ## Citation
 
 No author identity is asserted in this staging release. Citation metadata requires an approved public identity before publication.
-
